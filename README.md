@@ -20,7 +20,7 @@ Detailed implementations of this project are included in the folder python/tvm/m
 
 Usage:
 1. Install TVM and configure the environment as detailed in TVM's documentation.
-2. Configure the Strategy. Initialize the strategy with hyperparameters.
+2. Configure the strategy. Initialize the strategy with hyperparameters.
 
 ```
 my_strategy = MCTSSearchPyFull(
@@ -38,8 +38,7 @@ my_strategy = MCTSSearchPyFull(
     llm_budget=500,
 )
 ```
-3. Run Tuning
-Pass the strategy object to tune_tir as a parameter
+3. Run tuning. Pass the strategy object to tune_tir as a parameter
 
 ```
 database = ms.tune_tir(
