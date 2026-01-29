@@ -47,7 +47,7 @@ database = ms.tune_tir(
     max_trials_global=64,
     num_trials_per_iter=64,
     work_dir="./tune_tmp",
-    strategy=Mystrategy,
+    strategy=my_strategy,
 )
 ```
 
