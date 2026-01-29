@@ -51,4 +51,4 @@ database = ms.tune_tir(
 )
 ```
 
-We use TVM, an open source compiler stack for deep learning systems with [Apache-2.0](LICENSE) license. 
+This project uses TVM, an open source compiler stack for deep learning systems with [Apache-2.0](LICENSE) license. 
