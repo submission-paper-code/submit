@@ -16,7 +16,7 @@
 <!--- under the License. -->
 
 # COLT: Lightweight Multi-LLM Collaboration through Shared MCTS Reasoning for Model Compilation
-Detailed implementations of this project are included in the folder python/tvm/meta_schedule/search_strategy.
+Detailed implementations of this project are included in the folder python/tvm/meta_schedule/search_strategy. This project uses TVM, an open source compiler stack for deep learning systems with [Apache-2.0](LICENSE) license.
 
 Usage:
 1. Install TVM and configure the environment as detailed in TVM's documentation.
@@ -50,5 +50,3 @@ database = ms.tune_tir(
     strategy=my_strategy,
 )
 ```
-
-This project uses TVM, an open source compiler stack for deep learning systems with [Apache-2.0](LICENSE) license. 
